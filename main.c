@@ -57,8 +57,8 @@ int main(){
 }
 
 int binarySearch(int arr[], int n, int target){
-    int left = 1;
-    int right = n;
+    int left = 0;
+    int right = n-1;
     int i;
     while (left <= right){
         i = (left + right)/2;
